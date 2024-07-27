@@ -7,3 +7,5 @@ CREATE INDEX idx_node_id ON orders(node_id);
 
 CREATE INDEX idxs_node_id ON edges(node_a_id, node_b_id);
 CREATE INDEX idxs_username_password ON users(username, password);
+
+CREATE INDEX idx_area_id ON nodes(area_id);
