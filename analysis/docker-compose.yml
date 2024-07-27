@@ -1,0 +1,10 @@
+services:
+  analysis:
+    stdin_open: true
+    tty: true
+    restart: always
+    build:
+      context: .
+    container_name: analysis
+    volumes:
+      - ./logs/:/logs
